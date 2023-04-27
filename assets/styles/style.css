@@ -5,6 +5,9 @@
 html{
   height: 100%;
 }
+main
+
+
 nav {
   text-align: center;
   padding: 40px 0 0;
@@ -141,13 +144,13 @@ nav a {
    .small-menu { display: none }
 }
 
- Yuliya
+
 /* Footer (Yuliya) */
 
 .footer{
   width: 1152px;
   height: 280px;
-  background-color: #e8e9f2;
+  background-color: #ecedf9;
   margin-left: 146px;
   margin-top: 10px;
 }
