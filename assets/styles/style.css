@@ -5,13 +5,13 @@
 html{
   height: 100%;
 }
- Yuliya
+
 /* Footer (Yuliya) */
 
 .footer{
   width: 1152px;
   height: 280px;
-  background-color: #e8e9f2;
+  background-color: #ecedf9;
   margin-left: 146px;
   margin-top: 10px;
 }
@@ -411,4 +411,4 @@ nav a {
 @media screen and (min-width: 480px) {
    .small-menu { display: none }
 }
- main
+
