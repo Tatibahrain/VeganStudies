@@ -414,62 +414,54 @@ display: none;
 }
 
 
-  .topmenu > li > a:before {
-    content: "";
-    position: absolute;
-    z-index: 5;
-    left: 50%;
-    top: 100%;
-    width: 10px;
-    height: 10px;
-    background: rgb(157, 211, 175);
-    border-radius: 50%;
-    transform: translate(-50%, 20px);
-    opacity: 0;
-    transition: 0.3s;
-  }
-  .topmenu li:hover a:before {
-    transform: translate(-50%, 0);
-    opacity: 1;
-  }
-  .submenu {
-    position: absolute;
-    z-index: 4;
-    left: 50%;
-    top: 100%;
-    width: 170px;
-    padding: 15px 0 15px;
-    margin-top: 5px;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0 0 30px rgba(157, 211, 175, 0.7);
-    box-sizing: border-box;
-    visibility: hidden;
-    opacity: 0;
-    transform: translate(-50%, 20px);
-    transition: 0.3s;
-  }
-  .topmenu > li:hover .submenu {
-    visibility: visible;
-    opacity: 1;
-    transform: translate(-50%, 0);
-  }
-  .submenu a {
-    font-family: "Heebo", serif;
-    font-size: 15px;
-    letter-spacing: 1px;
-    padding: 5px 10px;
-    transition: 0.3s linear;
-
-    font-family: "Heebo", serif;
-    font-size: 15px;
-    letter-spacing: 1px;
-    padding: 5px 10px;
-    transition: 0.3s linear;
-  }
-  .submenu a:hover {
-    background: #e8e8e8;
-  }
+.topmenu > li > a:before {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  top: 100%;
+  width: 10px;
+  height: 10px;
+  background: rgb(157,211,175);
+  border-radius: 50%;
+  transform: translate(-50%, 20px);
+  opacity: 0;
+  transition: .3s;
+}
+.topmenu li:hover a:before {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.submenu {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  top: 100%;
+  width: 170px;
+  padding: 15px 0 15px;
+  margin-top: 5px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(157,211,175,.7);
+  box-sizing: border-box;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%, 20px);
+  transition: .3s;
+}
+.topmenu > li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+.submenu a {
+  font-family: 'Heebo', serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  transition: .3s linear;
+}
+.submenu a:hover {background: #e8e8e8;}
 
 @media screen and (max-width: 480px) {
   .topmenu > li {
@@ -507,9 +499,6 @@ display: none;
     display: none;
   }
 }
-/*.support {
-  text-decoration: none;
-}*/
 
 /* Footer (Yuliya) */
 
@@ -755,13 +744,9 @@ font-family: Heebo;
 src: url(../fonts/Heebo-Regular.woff);
 }
 @media screen and (max-width: 480px) {
-  .topmenu > li {
-    max-width: 400px;
-    /*border: 1px solid #555;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+  .footer-menu > .menu-item {
+    display: none;}
+ 
   .item-menu:not(:last-child) {
     border-bottom: 1px solid #555;
   }
@@ -891,11 +876,10 @@ transition: .3s;
   font-size: 15px;
   letter-spacing: 1px;
   padding: 5px 10px;
-  transition: 0.3s linear;
+  transition: .3s linear;
 }
-.submenu a:hover {
-  background: #e8e8e8;
-}
+.submenu a:hover {background: #e8e8e8;}
+
 
 @media screen and (max-width: 480px) {
   .topmenu > li {
@@ -1788,4 +1772,222 @@ figcaption {
 
 .see-1:hover {
   color: #312f2f82;
+}
+
+
+
+
+.about-us2{
+  display: grid;
+  width: 100%;
+
+  grid-template-areas: " text2 text2 text2 logo "
+                      " text1 text1 text1 logo"
+}
+
+.logo-about-us{
+grid-area:logo ;
+margin: 100px;
+}
+.logo-about-us2{
+width: 243px;
+height: 243px;
+border-radius: 250px;
+
+}
+
+.info-about-us{
+  grid-area: text1;
+  width: 497px;
+top: 373px;
+padding: 40px;
+}
+
+.info-about-us2{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+
+}
+.about-us{
+  grid-area: text2;
+  width: 506px;
+  height: 105px;
+  
+}
+  .about-us1{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 40px;
+margin: 60px;
+}
+
+
+
+.pic1-name1{
+  display: grid;
+  grid-template-areas: " picture1 name1 name1 "
+                      " picture1 name2 name2"
+                      " picture1 name3 name3"
+  }
+.name1{
+grid-area:name1;
+/* position: absolute; */
+width: 305px;
+height: 44px;
+left: 410px;
+top: 1077px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 44px;}
+
+.articles-and-translation{
+display: grid;
+  grid-template-areas: " picture1 name1 name1 "
+                      " picture1 name2 name2"
+                      " picture1 name3 name3"
+}
+.articles-and-translation1{
+  display: grid;
+  grid-template-areas: " picture1 name1 name1 "
+                      " picture1 name2 name2"
+                      " picture1 name3 name3"
+}
+.articles-and-translation2{
+  display: grid;
+  grid-template-areas: " picture1 name1 name1 "
+                      " picture1 name2 name2"
+                      " picture1 name3 name3"
+}
+.name2{
+grid-area:name2;
+/* position: absolute; */
+width: 337px;
+height: 44px;
+left: 410px;
+top: 1260px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 44px;
+}
+
+.name3{
+grid-area:name3;
+/* position: absolute; */
+width: 365px;
+height: 44px;
+left: 410px;
+top: 1450px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 44px;
+}
+.text-post1{
+/* position: absolute; */
+width: 594px;
+height: 93px;
+left: 410px;
+top: 1120px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.text-post2{
+/* position: absolute; */
+width: 594px;
+height: 93px;
+left: 410px;
+top: 1310px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.text-post3{
+/* position: absolute; */
+width: 507px;
+height: 93px;
+left: 413px;
+top: 1530px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+
+
+
+
+.post1_1{
+width: 246px;
+height: 180px;
+border-radius: 6px;
+}
+
+.subiecktivnosti{
+  display: flex;
+  justify-content: center;
+}
+.ppp{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+}
+.pic_post{
+  height: 500px;
+  width: 700px;
+}
+.pic_post1{
+  height: 750px;
+  width: 500px;
+}
+.post1_pic1{
+  height: 400px;
+  width: 500px;
+}
+
+
+
+
+
+@media screen and (max-width: 480px){
+.post3-pic{
+  display: none;
+}
+.post2-pic{
+  display: none;
+}
+.pic_post1{
+  display: none;
+}
+.post1_pic1{
+  display: none;
+}
+.pic_post{
+  display: none;
+}
 }
