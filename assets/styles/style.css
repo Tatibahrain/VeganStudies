@@ -551,3 +551,206 @@ nav a {
    .small-menu { display: none }
 }
 
+
+
+
+
+
+.about-us2{
+  display: grid;
+  width: 100%;
+
+  grid-template-areas: " text2 text2 text2 logo "
+                      " text1 text1 text1 logo"
+}
+
+.logo-about-us{
+grid-area:logo ;
+margin: 100px;
+}
+.logo-about-us2{
+width: 243px;
+height: 243px;
+border-radius: 250px;
+
+}
+
+.info-about-us{
+  grid-area: text1;
+  width: 497px;
+top: 373px;
+padding: 40px;
+}
+
+.info-about-us2{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+
+}
+.about-us{
+  grid-area: text2;
+  width: 506px;
+  height: 105px;
+  
+}
+  .about-us1{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 40px;
+margin: 60px;
+}
+
+
+
+.pic1-name1{
+  display: grid;
+  grid-template-areas: " picture1 name1 name1 "
+                      " picture1 name2 name2"
+                      " picture1 name3 name3"
+  }
+.name1{
+grid-area:name1;
+position: absolute;
+width: 305px;
+height: 44px;
+left: 410px;
+top: 1077px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 44px;
+
+}
+
+.name2{
+grid-area:name2;
+position: absolute;
+width: 337px;
+height: 44px;
+left: 410px;
+top: 1260px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 44px;
+}
+
+.name3{
+grid-area:name3;
+position: absolute;
+width: 365px;
+height: 44px;
+left: 410px;
+top: 1450px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 44px;
+}
+.text-post1{
+position: absolute;
+width: 594px;
+height: 93px;
+left: 410px;
+top: 1120px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.text-post2{
+position: absolute;
+width: 594px;
+height: 93px;
+left: 410px;
+top: 1310px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.text-post3{
+position: absolute;
+width: 507px;
+height: 93px;
+left: 413px;
+top: 1530px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+
+
+
+
+.post1_1{
+width: 246px;
+height: 180px;
+border-radius: 6px;
+}
+
+.subiecktivnosti{
+  display: flex;
+  justify-content: center;
+}
+.ppp{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+}
+.pic_post{
+  height: 500px;
+  width: 700px;
+}
+.pic_post1{
+  height: 750px;
+  width: 500px;
+}
+.post1_pic1{
+  height: 400px;
+  width: 500px;
+}
+
+
+
+
+
+@media screen and (max-width: 480px){
+.post3-pic{
+  display: none;
+}
+.post2-pic{
+  display: none;
+}
+.pic_post1{
+  display: none;
+}
+.post1_pic1{
+  display: none;
+}
+.pic_post{
+  display: none;
+}
+}
