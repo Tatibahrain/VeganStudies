@@ -746,7 +746,7 @@ src: url(../fonts/Heebo-Regular.woff);
 @media screen and (max-width: 480px) {
   .footer-menu > .menu-item {
     display: none;}
-  }
+ 
   .item-menu:not(:last-child) {
     border-bottom: 1px solid #555;
   }
@@ -1837,7 +1837,7 @@ margin: 60px;
   }
 .name1{
 grid-area:name1;
-position: absolute;
+/* position: absolute; */
 width: 305px;
 height: 44px;
 left: 410px;
@@ -1847,13 +1847,29 @@ font-family: 'Heebo';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
-line-height: 44px;
+line-height: 44px;}
 
+.articles-and-translation{
+display: grid;
+  grid-template-areas: " picture1 name1 name1 "
+                      " picture1 name2 name2"
+                      " picture1 name3 name3"
 }
-
+.articles-and-translation1{
+  display: grid;
+  grid-template-areas: " picture1 name1 name1 "
+                      " picture1 name2 name2"
+                      " picture1 name3 name3"
+}
+.articles-and-translation2{
+  display: grid;
+  grid-template-areas: " picture1 name1 name1 "
+                      " picture1 name2 name2"
+                      " picture1 name3 name3"
+}
 .name2{
 grid-area:name2;
-position: absolute;
+/* position: absolute; */
 width: 337px;
 height: 44px;
 left: 410px;
@@ -1868,7 +1884,7 @@ line-height: 44px;
 
 .name3{
 grid-area:name3;
-position: absolute;
+/* position: absolute; */
 width: 365px;
 height: 44px;
 left: 410px;
@@ -1881,7 +1897,7 @@ font-size: 20px;
 line-height: 44px;
 }
 .text-post1{
-position: absolute;
+/* position: absolute; */
 width: 594px;
 height: 93px;
 left: 410px;
@@ -1894,7 +1910,7 @@ font-size: 16px;
 line-height: 24px;
 }
 .text-post2{
-position: absolute;
+/* position: absolute; */
 width: 594px;
 height: 93px;
 left: 410px;
@@ -1907,7 +1923,7 @@ font-size: 16px;
 line-height: 24px;
 }
 .text-post3{
-position: absolute;
+/* position: absolute; */
 width: 507px;
 height: 93px;
 left: 413px;
